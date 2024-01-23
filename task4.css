@@ -1,0 +1,1062 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+#page1 #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+#page1 #nav #nav-left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#page1 #nav #nav-left img{
+    height: 80px;
+    width: 80px;
+}
+#page1 #nav #nav-left h4{
+    font-size: 22px;
+    font-family:sans-serif;
+    font-weight: 540;
+    color: white;
+}
+#nav-left #sub{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid yellowgreen;
+}
+#nav-left #for{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(174, 173, 173);
+}
+#nav-left h3{
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 540;
+    
+}
+
+
+
+
+
+
+#nav #nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nav #nav-right img{
+    height: 70px;
+    width: 70px;
+
+}
+#nav #nav-right #search{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-size: 22px;
+    background-color:black;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 540;
+    opacity: 0.6;
+    border: 1px solid rgb(188, 187, 187);
+}
+
+
+#page1 #center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+#center-left{
+    height: 100%;
+    width: 30%;
+}
+#center-right{
+    height: 100%;
+    width:calc(100% - 30px);
+    position: relative;
+    border: none;
+    
+}
+#center-right img{
+    height: 600px;
+    width: 1000px ;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#center-left h1{
+    margin-top: 138%;
+    margin-left: 7%;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+}
+#center-left h5{
+    margin-left: 7%;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: pink;
+}
+#center-left button{
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(124, 124, 124);
+    border: none;
+}
+
+#page2{
+    background-color:black;
+}
+#page2 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding: 10px 30px;
+}
+#page2 #nav #icon1{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+#page2 #nav #icon2{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+#page2 #nav i{
+    font-size: 30px;
+    font-weight: 100;
+    font-family:mona;
+   color: #fff;
+   opacity: 0.5;
+}
+#page2 h2{
+    color: #fff;
+    margin-left:25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#nav2 #box{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#box #box1{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/v3Storage/assets/ghuspaith-16x9-1696595276468.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#box #box2{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+background-image: url(https://v3img.voot.com/resizeMedium,w_540,h_540/v3Storage/assets/shark-tank-s-15-1x1-1696039246329.jpg?imformat=chrome);}
+#box #box3{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_540,h_540/v3Storage/assets/1x1nfsf-1696568711586.jpg?imformat=chrome);
+}
+#box #box4{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+background-image: url(https://v3img.voot.com/v3Storage/assets/kkk_16x9_show-1693811643752.jpg);}
+#box #box5{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/26/MTV_Roadies-_Karm_Ya_Kaand.jpg);
+}
+
+
+
+
+
+
+
+#nav22 #boxx{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxx #box11{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/aakashvani_oct8_vertical-1696730746533.jpg?imformat=chrome);  
+    background-position: center;
+    background-size: cover;
+}
+#boxx #box22{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/kerala_blasters_franchise_show_vertical-1696733369909.jpg?imformat=chrome);
+}
+ #boxx #box33{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/isl_highlights_vertical-1696684476190.jpg?imformat=chrome);
+}
+#boxx #box44{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/la_liga_highlights_vertical-1696692164012.jpg?imformat=chrome);
+}
+#boxx #box55{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3_reasons_to_watch_mumbai_vs_kerala_horizontal_vertical-1696716865025.jpg?imformat=chrome);
+}
+
+
+
+
+
+
+
+#nav222 #boxxx{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxxx #box111{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/bebaak-with-border-3x4-1696433058715.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+#boxxx #box222{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/comedian-3x4-1695979554806.jpg?imformat=chrome);
+}
+ #boxxx #box333{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/b-gg-3x4-1696327200702.jpg?imformat=chrome);
+}
+#boxxx #box444{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/birha-the-journey-back-home-3x4-1695989820069.jpg?imformat=chrome);
+}
+#boxxx #box555{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/laar__3x4-1696692843087.jpg?imformat=chrome);
+}
+
+
+
+
+
+
+
+
+
+
+#nav2222 #boxxxx{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxxxx #box1111{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/roadies-3x4-1693565966596.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+#boxxxx #box2222{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4-1692266554763.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+ #boxxxx #box3333{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4ss-1695985840383.jpg?imformat=chrome);
+}
+#boxxxx #box4444{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/udaariyaan_3x4-1695306404190.jpg?imformat=chrome);
+}
+#boxxxx #box5555{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/junooniyat-3x4-1-1692361681131.jpg?imformat=chrome);
+}
+
+
+
+
+
+
+
+
+
+
+#show{
+    height: 300px;
+    width: 94%;
+    background-color: red;
+    margin-left: 3%;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_1920,h_411/v3Storage/assets/bbk-14x3-1696328001916.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    transition: all ease 0.5s;
+}
+#show:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+#navv #boxes{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxes #bux1{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/asur2_3x4-1692798747887.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+#boxes #bux2{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/apharan-3x4-1694794049661.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+ #boxes #bux3{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/crackdown_3x4-1692798941169.jpg?imformat=chrome);
+}
+#boxes #bux4{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/taali-3x4-imdb-1693813361112.jpg?imformat=chrome);
+}
+#boxes #bux5{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/inspecto_avinash_3x4-1692799243907.jpg?imformat=chrome);
+}
+
+
+
+
+
+
+
+#navv1 #boxes1{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxes1 #bux11{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical-1695826555421.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+#boxes1 #bux22{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_rohit-1695826634549.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+ #boxes1 #bux33{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical-1695817383736.jpg?imformat=chrome);
+    background-size: cover;
+}
+#boxes1 #bux44{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_surya-1695561592602.jpg?imformat=chrome);
+}
+#boxes1 #bux55{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical_ash-1695577604733.jpg?imformat=chrome);
+}
+
+
+
+#world{
+    color: #fff;
+    margin-left:25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#navv11 #boxes11{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    gap: 30px;
+    margin-left: 25px;
+}
+#boxes11 #bux111{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/rhobh_3x4-1686213649316.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+#boxes11 #bux222{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/fifty_shades_freed_3x4-1690175217559.jpg?imformat=chrome);
+    background-position: center;
+    background-size: cover;
+}
+ #boxes11 #bux333{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/confirmation_3x4-1691872361746.jpg?imformat=chrome);
+     background-size: cover;
+}
+#boxes11 #bux444{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/parks-and-recreation-3x4-1686391364806.jpg?imformat=chrome);
+}
+#boxes11 #bux555{
+    height: 100%;
+    width: calc(100% / 5 - 10px);
+    background-color: blue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/and-just-like-that-3x4-1688538740769.jpg?imformat=chrome);
+}
+
+
+
+
+#page3{
+    padding: 50px 20px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+}
+#page3 #left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+   
+}
+#page3 #left h3{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#page3 #left h4{
+    margin-left: 70px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+}
+#page3 #right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+#right1 {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#right1 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+#right1 #icons{
+    gap: 10px;
+}
+#right1 #icons i{
+    font-size: 40px;
+    color: #fff;
+}
+#right2 {
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+#right2 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+#right #right1 #icons{
+    display: flex;
+}
+
+#right #right1 #icons #box1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right #right1 #icons #box2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right #right1 #icons #box3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right #right1 #icons #box4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ #right2 #site image{
+    height: 150px;
+    width: 50px;
+}
+#nav2 #box #box1{
+    transition: all ease 0.5s;
+}
+#nav2 #box #box2{
+    transition: all ease 0.5s;
+}
+#nav2 #box #box3{
+    transition: all ease 0.5s;
+}
+#nav2 #box #box4{
+    transition: all ease 0.5s;
+}
+#nav2 #box #box5{
+    transition: all ease 0.5s;
+}
+
+#nav2 #box #box1:hover{
+    opacity: 0.8;
+}
+
+#nav2 #box #box2:hover{
+    opacity: 0.8;
+}
+#nav2 #box #box3:hover{
+    opacity: 0.8;
+}
+#nav2 #box #box4:hover{
+    opacity: 0.8;
+}
+#nav2 #box #box5:hover{
+    opacity: 0.8;
+}
+
+
+#nav22 #boxx #box11{
+    transition: all ease 0.5s;
+}
+#nav22 #boxx #box22{
+    transition: all ease 0.5s;
+}
+#nav22 #boxx #box33{
+    transition: all ease 0.5s;
+}
+#nav22 #boxx #box44{
+    transition: all ease 0.5s;
+}
+#nav22 #boxx #box55{
+    transition: all ease 0.5s;
+}
+
+#nav22 #boxx #box11:hover{
+    opacity: 0.8;
+}
+
+#nav22 #boxx #box22:hover{
+    opacity: 0.8;
+}
+#nav22 #boxx #box33:hover{
+    opacity: 0.8;
+}
+#nav22 #boxx #box44:hover{
+    opacity: 0.8;
+}
+#nav22 #boxx #box55:hover{
+    opacity: 0.8;
+}
+
+
+#nav222 #boxxx #box111{
+    transition: all ease 0.5s;
+}
+#nav222 #boxxx #box222{
+    transition: all ease 0.5s;
+}
+#nav222 #boxxx #box333{
+    transition: all ease 0.5s;
+}
+#nav222 #boxxx #box444{
+    transition: all ease 0.5s;
+}
+#nav222 #boxxx #box555{
+    transition: all ease 0.5s;
+}
+
+#nav222 #boxxx #box111:hover{
+    opacity: 0.8;
+}
+
+#nav222 #boxxx #box222:hover{
+    opacity: 0.8;
+}
+#nav222 #boxxx #box333:hover{
+    opacity: 0.8;
+}
+#nav222 #boxxx #box444:hover{
+    opacity: 0.8;
+}
+#nav222 #boxxx #box555:hover{
+    opacity: 0.8;
+}
+
+
+
+#nav2222 #boxxxx #box1111{
+    transition: all ease 0.5s;
+}
+#nav2222 #boxxxx #box2222{
+    transition: all ease 0.5s;
+}
+#nav2222 #boxxxx #box3333{
+    transition: all ease 0.5s;
+}
+#nav2222 #boxxxx #box4444{
+    transition: all ease 0.5s;
+}
+#nav2222 #boxxxx #box5555{
+    transition: all ease 0.5s;
+}
+
+#nav2222 #boxxxx #box1111:hover{
+    opacity: 0.8;
+}
+
+#nav2222 #boxxxx #box2222:hover{
+    opacity: 0.8;
+}
+#nav2222 #boxxxx #box3333:hover{
+    opacity: 0.8;
+}
+#nav2222 #boxxxx #box4444:hover{
+    opacity: 0.8;
+}
+#nav2222 #boxxxx #box5555:hover{
+    opacity: 0.8;
+}
+
+
+
+
+#navv #boxes #bux1{
+    transition: all ease 0.5s;
+}
+#navv #boxes #bux2{
+    transition: all ease 0.5s;
+}
+#navv #boxes #bux3{
+    transition: all ease 0.5s;
+}
+#navv #boxes #bux4{
+    transition: all ease 0.5s;
+}
+#navv #boxes #bux5{
+    transition: all ease 0.5s;
+}
+
+#navv #boxes #bux1:hover{
+    opacity: 0.8;
+}
+
+#navv #boxes #bux2:hover{
+    opacity: 0.8;
+}
+#navv #boxes #bux3:hover{
+    opacity: 0.8;
+}
+#navv #boxes #bux4:hover{
+    opacity: 0.8;
+}
+#navv #boxes #bux5:hover{
+    opacity: 0.8;
+}
+
+
+
+
+#navv1 #boxes1 #bux11{
+    transition: all ease 0.5s;
+}
+#navv1 #boxes1 #bux22{
+    transition: all ease 0.5s;
+}
+#navv1 #boxes1 #bux33{
+    transition: all ease 0.5s;
+}
+#navv1 #boxes1 #bux44{
+    transition: all ease 0.5s;
+}
+#navv1 #boxes1 #bux55{
+    transition: all ease 0.5s;
+}
+
+#navv1 #boxes1 #bux11:hover{
+    opacity: 0.8;
+}
+
+#navv1 #boxes1 #bux22:hover{
+    opacity: 0.8;
+}
+#navv1 #boxes1 #bux33:hover{
+    opacity: 0.8;
+}
+#navv1 #boxes1 #bux44:hover{
+    opacity: 0.8;
+}
+#navv1 #boxes1 #bux55:hover{
+    opacity: 0.8;
+}
+
+
+
+
+#navv11 #boxes11 #bux111{
+    transition: all ease 0.5s;
+}
+#navv11 #boxes11 #bux222{
+    transition: all ease 0.5s;
+}
+#navv11 #boxes11 #bux333{
+    transition: all ease 0.5s;
+}
+#navv11 #boxes11 #bux444{
+    transition: all ease 0.5s;
+}
+#navv11 #boxes11 #bux555{
+    transition: all ease 0.5s;
+}
+
+#navv11 #boxes11 #bux111:hover{
+    opacity: 0.8;
+}
+
+#navv11 #boxes11 #bux222:hover{
+    opacity: 0.8;
+}
+#navv11 #boxes11 #bux333:hover{
+    opacity: 0.8;
+}
+#navv11 #boxes11 #bux444:hover{
+    opacity: 0.8;
+}
+#navv11 #boxes11 #bux555:hover{
+    opacity: 0.8;
+}
+
+
+
+
+#page3 #left1 h3{
+    transition: all ease 0.5s;
+}
+#page3 #left2 h3{
+    transition: all ease 0.5s;
+}
+#page3 #left1 h4{
+    transition: all ease 0.5s;
+}
+#page3 #left2 h4{
+    transition: all ease 0.5s;
+}
+#page3 #left1 h3:hover{
+    color: goldenrod ;
+}
+#page3 #left2 h3:hover{
+    color: goldenrod;
+}
+#page3 #left1 h4:hover{
+    color: goldenrod;
+}
+#page3 #left2 h4:hover{
+    color: goldenrod;
+}
+
+
+#page3 #right #icons i{
+    transition: all ease 0.5s;
+
+}
+#page3 #right #icons i:hover{
+    opacity: 0.6;
+}
+
+#page1 h4 {
+    transition: all ease 0.5s;
+}
+#page1 #nav #nav-left h4:hover{
+    opacity: 0.6;
+}
+#page1 h3 {
+    transition: all ease 0.5s;
+}
+#page1 #nav #nav-left h3:hover{
+    opacity: 0.6;
+}
